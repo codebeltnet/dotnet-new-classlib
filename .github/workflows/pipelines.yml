@@ -40,12 +40,12 @@ jobs:
         name: Calculate Version
         uses: codebeltnet/minver-calculate@main
 
-      - name: Download sharedkernel.snk file
+      - name: Download classlibrary1.snk file
         uses: codebeltnet/gcp-download-file@main
         with: 
           serviceAccountKey: ${{ secrets.GCP_TOKEN }}
           bucketName: ${{ secrets.GCP_BUCKETNAME }}
-          objectName: sharedkernel.snk
+          objectName: classlibrary1.snk
 
       - name: Restore Dependencies
         uses: codebeltnet/dotnet-restore@main
