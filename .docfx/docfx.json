@@ -20,7 +20,8 @@
     "xref": [
       "https://docs.cuemon.net/xrefmap.yml",
       "https://docs.savvyio.net/xrefmap.yml",
-      "https://sharedkernel.codebelt.net/xrefmap.yml"
+      "https://sharedkernel.codebelt.net/xrefmap.yml",
+      "https://github.com/dotnet/docfx/raw/main/.xrefmap.json"
     ],
     "content": [
       {
@@ -81,8 +82,6 @@
     "noLangKeyword": false,
     "keepFileLink": false,
     "cleanupCacheHistory": false,
-    "disableGitFeatures": false,
-    "xrefService": [
-      "https://xref.docs.microsoft.com/query?uid={uid}" ]
+    "disableGitFeatures": false
   }
 }
