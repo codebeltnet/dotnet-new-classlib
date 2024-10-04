@@ -81,7 +81,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Codebelt.Extensions.Xunit.App" Version="8.4.1" />
+    <PackageReference Include="Codebelt.Extensions.Xunit.App" Version="8.4.1" PrivateAssets="all" />
   </ItemGroup>
 
 </Project>
