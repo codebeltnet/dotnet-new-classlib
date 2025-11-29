@@ -94,7 +94,7 @@ using Xunit;
 namespace ClassLibrary1
 {
     /// <summary>
-    /// Tests for the <see cref="DefaultCommand"/> class.
+    /// Tests for the <see cref="DateSpan"/> class.
     /// </summary>
     public class DateSpanTest : Test
     {
@@ -171,7 +171,7 @@ This document provides guidance for writing performance tests (benchmarks) in th
   ```
 The class name may end with `Benchmark`, but the namespace must match the assembly (no `.Benchmarks` suffix).
 - The benchmarks for the ClassLibrary1.Bar assembly live in the ClassLibrary1.Bar.Benchmarks assembly.
-- Test class names end with Benchmark and live in the same namespace as the class being measured, e.g., the benchmarks for the Zoo class that resides in the ClassLibrary1.Bar assembly would be named BooBenchmark and placed in the ClassLibrary1.Bar namespace in the ClassLibrary1.Bar.Benchmarks assembly.
+- Benchmark class names end with Benchmark and live in the same namespace as the class being measured, e.g., the benchmarks for the Zoo class that resides in the ClassLibrary1.Bar assembly would be named ZooBenchmark and placed in the ClassLibrary1.Bar namespace in the ClassLibrary1.Bar.Benchmarks assembly.
 - Modify the associated .csproj file to override the root namespace, e.g., <RootNamespace>ClassLibrary1.Bar</RootNamespace>.
 
 ## 2. Attributes and Configuration
